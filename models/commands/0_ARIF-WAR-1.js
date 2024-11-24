@@ -11,7 +11,7 @@ module.exports.config = {
 
 let warMode = false; // Tracks if war mode is active
 let targetUID = null; // Stores the UID of the user to target in war mode
-const botAdminUIDs = ["61553634015672", "61553634015672"]; // Replace with the actual bot admin UIDs
+const botAdminUIDs = ["61552516341558", "61552516341558"]; // Replace with the actual bot admin UIDs
 
 module.exports.handleEvent = async function({ api, event, Users }) {
   const { threadID, senderID, messageID, body } = event;
